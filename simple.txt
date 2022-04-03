@@ -1,0 +1,10 @@
+while True:
+    start = input("입력 :")
+    print("출력 :{}".format(eval(start)))
+
+    again = input("re? :")
+    if again.upper() == "Y":
+        continue
+    elif again.upper() == "N":
+        print("Bye bye")
+        break
